@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4CAF50;   /* Green */
+  --accent: #2196F3;    /* Blue */
+  --highlight: #FF9800; /* Orange */
+}
+
+.text-primary {
+  color: var(--primary);
+}
+.text-accent {
+  color: var(--accent);
+}
+.text-highlight {
+  color: var(--highlight);
+}
