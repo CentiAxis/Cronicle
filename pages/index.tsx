@@ -1,12 +1,8 @@
-// pages/index.tsx
-
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen gap-6 bg-white text-center p-6">
-      {/* Orange circular button */}
-      <button className="w-14 h-14 rounded-full border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-300 shadow-md text-xl font-bold">
-        +
-      </button>
+      {/* Test red circle box */}
+      <div className="w-20 h-20 bg-red-500 rounded-full"></div>
 
       {/* Chocolate brown links */}
       <div className="flex flex-col items-center gap-2">
